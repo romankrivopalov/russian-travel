@@ -1,0 +1,21 @@
+.header__lang {
+  margin: 0 18px 0 0;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header__lang:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
