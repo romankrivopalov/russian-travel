@@ -1,11 +1,12 @@
 .header__lang {
-  margin: 0 18px 0 0;
+  margin: 0 14px 0 0;
   padding: 0;
   color: #fff;
   font-size: 24px;
   line-height: 28px;
   background-color: transparent;
   border: none;
+  outline: none;
   cursor: pointer;
 }
 
