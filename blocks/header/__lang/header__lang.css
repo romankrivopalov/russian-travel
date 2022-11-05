@@ -6,15 +6,23 @@
   line-height: 28px;
   background-color: transparent;
   border: none;
-  outline: none;
   cursor: pointer;
+  transition: opacity 0.3s ease;
 }
 
 .header__lang:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+.header__lang:hover {
+  opacity: 1;
+}
+
+.header__lang:last-child:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
   .header__lang {
     font-size: 18px;
     line-height: 20px;

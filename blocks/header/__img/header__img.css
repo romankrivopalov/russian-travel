@@ -1,10 +1,10 @@
 .header__img {
-  width: 177px;
+  width: 142px;
   height: auto;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
   .header__img {
-    width: 142px;
+    width: 177px;
   }
 }

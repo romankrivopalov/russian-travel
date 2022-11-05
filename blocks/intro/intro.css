@@ -1,17 +1,26 @@
-.lead {
+.intro {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0 16px;
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .intro {
+    padding: 0 24px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
-  .lead {
+  .intro {
     margin: 0 auto;
+    padding: 0;
     width: 928px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .lead {
+  .intro {
     width: 984px;
   }
 }

@@ -1,9 +1,9 @@
 .header__langs {
-  padding-top: 18px;
+  padding-top: 14px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
   .header__langs {
-    padding-top: 14px;
+    padding-top: 18px;
   }
 }
