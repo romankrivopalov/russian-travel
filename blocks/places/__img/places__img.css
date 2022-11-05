@@ -1,0 +1,21 @@
+.places__img {
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 425px) {
+  .places__img {
+    padding: 0 16px;
+    width: calc(100% - 32px);
+    height: 350px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .places__img {
+    padding: 0;
+    width: 100%;
+  }
+}
+

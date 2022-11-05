@@ -1,0 +1,26 @@
+.places {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 14px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .places {
+    padding: 15px 24px 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    margin: 0 auto;
+    padding-top: 12px;
+    width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    width: 984px;
+  }
+}
