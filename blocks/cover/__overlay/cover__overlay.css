@@ -1,4 +1,5 @@
 .cover__overlay {
+  margin-top: 66px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,3 +11,16 @@
 .cover__overlay:hover {
   background-color: rgba(42, 44, 47, .8);
 }
+
+@media screen and (min-width: 768px) {
+  .cover__overlay {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__overlay {
+    margin-top: 92px;
+  }
+}
+

@@ -1,8 +1,16 @@
 .cover {
   position: relative;
+  margin: 0;
   width: 100%;
   background-image: url('../../images/cover-trains.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin: 0 auto;
+    width: 1184px;
+  }
 }
