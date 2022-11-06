@@ -1,3 +1,8 @@
 .header__lang_select {
   border-bottom: 2px solid #fff;
+  cursor: default;
+}
+
+.header__lang_select:hover {
+  opacity: 1;
 }

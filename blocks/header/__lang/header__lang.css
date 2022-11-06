@@ -3,7 +3,7 @@
   padding: 0;
   color: #fff;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -15,16 +15,12 @@
 }
 
 .header__lang:hover {
-  opacity: 1;
-}
-
-.header__lang:last-child:hover {
-  opacity: 0.5;
+  opacity: .5;
 }
 
 @media screen and (max-width: 768px) {
   .header__lang {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 1.11;
   }
 }
