@@ -1,0 +1,10 @@
+.place__url-wrapper {
+  padding: 0 16px;
+  align-self: end;
+}
+
+@media screen and (min-width: 768px) {
+  .place__url-wrapper {
+    padding: 0;
+  }
+}

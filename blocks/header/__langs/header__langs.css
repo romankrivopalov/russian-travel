@@ -1,9 +1,13 @@
 .header__langs {
-  padding-top: 14px;
+  margin: 0;
+  padding: 14px 0 0 0;
+  display: flex;
+  gap: 14px;
+  list-style: none;
 }
 
 @media screen and (min-width: 768px) {
   .header__langs {
-    padding-top: 18px;
+    padding: 18px 0 0 0;
   }
 }

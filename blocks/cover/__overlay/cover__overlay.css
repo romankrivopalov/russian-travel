@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .cover__overlay {
     min-height: 740px;
   }

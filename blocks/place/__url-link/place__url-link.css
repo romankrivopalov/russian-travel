@@ -1,4 +1,4 @@
-.places__url-link {
+.place__url-link {
   display: inline-block;
   margin: 0;
   padding-top: 12px;
@@ -10,6 +10,6 @@
   transition: opacity 0.3s ease;
 }
 
-.places__url-link:hover {
-  opacity: 0.5;
+.place__url-link:hover {
+  opacity: 0.8;
 }

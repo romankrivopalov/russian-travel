@@ -25,6 +25,6 @@
   .footer {
     margin: 0 auto;
     padding: 92px 0 24px 0;
-    width: 1184px;
+    max-width: 1184px;
   }
 }

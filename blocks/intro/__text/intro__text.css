@@ -7,12 +7,6 @@
   color: #fff;
 }
 
-@media screen and (min-width: 768px) {
-  .intro__text {
-    margin: 0;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .intro__text {
     max-width: 690px;

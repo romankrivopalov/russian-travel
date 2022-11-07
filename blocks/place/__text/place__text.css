@@ -1,4 +1,4 @@
-.places__text {
+.place__text {
   margin: 0 0 25px 0;
   padding: 0 16px;
   font-size: 16px;
@@ -6,18 +6,18 @@
   color: #fff;
 }
 
-.places__text:last-child {
+.place__text:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .places__text {
-
+  .place__text {
+    padding: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .places__text {
+  .place__text {
     font-size: 18px;
   }
 }
